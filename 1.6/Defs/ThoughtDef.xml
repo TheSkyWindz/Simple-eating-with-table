@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThoughtDef>
+    <defName>AteWithTable</defName>
+    <durationDays>1</durationDays>
+    <stackLimit>1</stackLimit>
+    <nullifyingTraits>
+      <li>Ascetic</li>
+    </nullifyingTraits>
+    <nullifyingPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">RoughLiving_Welcomed</li>
+    </nullifyingPrecepts>
+    <stages>
+      <li>
+        <label>ate with table</label>
+        <description>I ate with a table, it's pretty convenient</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

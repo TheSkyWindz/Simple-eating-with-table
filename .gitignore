@@ -1,0 +1,10 @@
+/.vscode/obj
+/.vscode/.idea
+/.idea
+/*.sln 
+/*/Assemblies/*.pdb
+/*/Assemblies/0Harmony.dll
+
+# /*/Assemblies
+# /.vscode
+# /Source
