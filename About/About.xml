@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<packageId>TheSkyWinds.BetterEatingWithoutTable</packageId>
-	<name>Better Eating Without Table</name>
+	<packageId>TheSkyWinds.SimpleEatingWithTable</packageId>
+	<name>Simple Eating With Table</name>
 	<author>TheSkyWinds</author>
 	<!-- <modIconPath>path/to/icon</modIconPath> -->
 	<supportedVersions>
@@ -17,17 +17,5 @@
 		</li>
 	</modDependencies>
 
-	<incompatibleWith>
-		<!-- <li>username.modname</li> -->
-	</incompatibleWith>
-
-	<loadBefore>
-		<!-- <li>username.modname</li> -->
-	</loadBefore>
-	
-	<loadAfter>
-		<!-- <li>username.modname</li> -->
-	</loadAfter>
-
-	<description>Template</description>
+	<description>Makes eating without a table much less devastating and makes eating with one feel convenient</description>
 </ModMetaData>
