@@ -17,7 +17,7 @@ using RimWorld.Planet;
 using System.Reflection;
 using HarmonyLib;
 
-namespace BetterEatingWithoutTable
+namespace SimpleEatingWithTable
 {
     [DefOf]
     public class AteWithTableDefOf
@@ -30,7 +30,7 @@ namespace BetterEatingWithoutTable
     {
         static Start()
         {
-            Harmony harmony = new Harmony("theskywinds.bettereatingwithouttable");
+            Harmony harmony = new Harmony("theskywinds.simple-eating-with-table");
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
     }
