@@ -43,8 +43,12 @@ namespace SimpleEatingWithTable
             __result.AddFinishAction(() =>
             {
                 Thing thing = ingester.CurJob.GetTarget(ingestibleInd).Thing;
-                if ((ingester.Position + ingester.Rotation.FacingCell).HasEatSurface(ingester.Map) && ingester.GetPosture() == PawnPosture.Standing && thing.def.ingestible.tableDesired)
-                    ingester.needs.mood.thoughts.memories.TryGainMemory(AteWithTableDefOf.AteWithTable);
+                if (ingester.needs.mood != null && thing.def.IsNutritionGivingIngestible)
+                {
+                    if ((ingester.Position + ingester.Rotation.FacingCell).HasEatSurface(ingester.Map) && ingester.GetPosture() == PawnPosture.Standing && thing.def.ingestible.tableDesired)
+                        ingester.needs.mood.thoughts.memories.TryGainMemory(AteWithTableDefOf.AteWithTable);
+                }
+                
             });
         }
     }

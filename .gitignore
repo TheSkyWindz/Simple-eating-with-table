@@ -4,8 +4,9 @@
 /*.sln 
 /*/Assemblies/*.pdb
 /*/Assemblies/0Harmony.dll
-/About/PublishedFileId
+/About/PublishedFileId.txt
 
 # /*/Assemblies
 # /.vscode
 # /Source
+
