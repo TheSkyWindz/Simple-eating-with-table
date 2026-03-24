@@ -39,11 +39,10 @@ namespace SimpleEatingWithTable
     public static class EatWithTable
     {
         [HarmonyPostfix]
-        public static void Postfix(Toil __result, Pawn ingester, TargetIndex ingestibleInd)
-        {
-            Thing thing = ingester.CurJob.GetTarget(ingestibleInd).Thing;
+        public static void Postfix(Toil __result, Pawn ingester, TargetIndex ingestibleInd) {
             __result.AddFinishAction(() =>
             {
+                Thing thing = ingester.CurJob.GetTarget(ingestibleInd).Thing;
                 if ((ingester.Position + ingester.Rotation.FacingCell).HasEatSurface(ingester.Map) && ingester.GetPosture() == PawnPosture.Standing && thing.def.ingestible.tableDesired)
                     ingester.needs.mood.thoughts.memories.TryGainMemory(AteWithTableDefOf.AteWithTable);
             });

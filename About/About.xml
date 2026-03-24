@@ -2,8 +2,11 @@
 <ModMetaData>
 	<packageId>TheSkyWinds.SimpleEatingWithTable</packageId>
 	<name>Simple Eating With Table</name>
-	<author>TheSkyWinds</author>
-	<!-- <modIconPath>path/to/icon</modIconPath> -->
+	<authors>
+		<li>TheSkyWinds</li>
+		<li>MewTheNekomata</li>
+		<li>Johnvince53</li>
+	</authors>
 	<supportedVersions>
 		<li>1.6</li>
 	</supportedVersions>
