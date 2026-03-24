@@ -13,7 +13,7 @@
     <stages>
       <li>
         <label>ate with table</label>
-        <description>I ate with a table, it's pretty convenient</description>
+        <description>It's nice having a table to eat at</description>
         <baseMoodEffect>1</baseMoodEffect>
       </li>
     </stages>
